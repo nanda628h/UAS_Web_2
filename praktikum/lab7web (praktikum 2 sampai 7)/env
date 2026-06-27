@@ -1,0 +1,17 @@
+#--------------------------------------------------------------------
+# ENVIRONMENT
+#--------------------------------------------------------------------
+
+CI_ENVIRONMENT = development
+
+#--------------------------------------------------------------------
+# DATABASE
+# Sesuaikan dengan konfigurasi MySQL lokal kamu
+#--------------------------------------------------------------------
+
+database.default.hostname = localhost
+database.default.database = lab_ci4
+database.default.username = root
+database.default.password =
+database.default.DBDriver = MySQLi
+database.default.DBPrefix =
